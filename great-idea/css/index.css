@@ -274,39 +274,57 @@ and (min-width: 600px)
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-}
-
-.mainContent .card{
-	width: 45%;
-	height: 300px;
-	margin: 15px 2%;
-	background-color: grey;
-	display: flex;
-	align-items: center;
 	justify-content: center;
 }
+.mainContent .cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.card{
+	width: 50%;
+	height: 200px;
+	margin: 15px 2%;
+	background-color: darkgray;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	border: 2px solid black;
+}
+.cardHeading{
+	margin: 3%;
+}
+.cardContent{
+	margin: 3%;
+}
 
-.servicesButton {
+.cardButton{
 	width: 150px;
-	height: 45px;
+	height: 40px;
 	border-radius: 15px;
 	font-size: 16px;
+	margin: 2%;
+	border: 1px solid black;
 }
 .bottomServices{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 3%;
+	margin: 1.5% 0;
 }
 .servicesInfo{
-	width: 48%;
+	width: 50%;
+	margin: 2%;
 }
 .services-info-img{
-	width: 48%;
+	width: 50%;
+	margin: 2%;
 }
 .servicesInfo ul{
-	list-style-type: circle;
+	list-style-type: square;
 	padding-left: 30px;
 	margin-top: 2%;
 }
