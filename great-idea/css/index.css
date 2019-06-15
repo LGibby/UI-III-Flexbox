@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,18 +49,18 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /*Great Idea Index*/
@@ -233,3 +233,51 @@ and (min-width: 600px)
 	}
 }
 
+/*Begin Services Page*/
+.mainBody {
+	width: 1000px;
+	margin: auto;
+}
+.navLogo{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 3%;
+}
+.navPanel{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.servicesLogo{
+	margin-left: 2%;
+}
+.navPanel a{
+	color: darkgray;
+	text-decoration: none;
+}
+
+.mainContent{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.mainContent .card{
+	width: 45%;
+	height: 300px;
+	margin: 15px 2%;
+	background-color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.servicesButton {
+	width: 150px;
+	height: 45px;
+	border-radius: 15px;
+	font-size: 16px;
+}

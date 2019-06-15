@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83688fb6-adf1-4f71-87d9-2a108a896181" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/great-idea/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/great-idea/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/great-idea/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/great-idea/services.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +60,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/great-idea/services.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3504">
-                  <caret line="108" column="8" lean-forward="true" selection-end-line="114" selection-end-column="7" />
+                <state relative-caret-position="364">
+                  <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +73,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/great-idea/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="198" selection-start-line="149" selection-end-line="198" />
+                <state relative-caret-position="139">
+                  <caret line="272" column="18" lean-forward="true" selection-start-line="272" selection-start-column="18" selection-end-line="272" selection-end-column="18" />
                   <folding>
                     <element signature="e#1488#1575#0" />
                     <element signature="e#1583#1704#0" />
@@ -220,12 +221,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559588883649</updated>
       <workItem from="1559588888097" duration="1515000" />
-      <workItem from="1560610060863" duration="2500000" />
+      <workItem from="1560610060863" duration="6544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4015000" />
+    <option name="totallyTimeSpent" value="8059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -293,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/great-idea/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3504">
-          <caret line="108" column="8" lean-forward="true" selection-end-line="114" selection-end-column="7" />
+        <state relative-caret-position="364">
+          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
         </state>
       </provider>
     </entry>
