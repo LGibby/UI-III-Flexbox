@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,18 +49,288 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*Great Idea Index*/
+.index-page{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+.nav-panel{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.nav-panel a {
+	text-decoration: none;
+	color: grey;
+	margin: 20px 20px 0 20px;
+}
+.top-section{
+	display: flex;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.sloganDiv{
+	display: flex;
+	flex-flow: column nowrap;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+}
+.accentImage{
+	width: 50%;
+}
+.slogan {
+	font-size: 6rem;
+	text-align: center;
+}
+.index-button{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 11pt;
+	background: snow;
+	border: 2px solid black;
+}
+.divSetOne{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	align-items: space-between;
+}
+.middle-img{
+	width: 100%;
+}
+.divSetTwo{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	align-items: space-between;
+}
+.bottom-section{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+footer {
+	text-align: center;
+	margin-bottom: 40px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*Begin Mobile*/
+@media only screen
+and (max-width: 599px)
+and (min-width: 300px)
+{
+	.index-page {
+		width: 100%;
+	}
+	.header {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo {
+		order: -1
+	}
+	.nav-panel{
+		display: flex;
+		flex-direction: column;
+	}
+	.sloganDiv{
+		width: 100%;
+		margin: 20px 0 30px 0;
+	}
+	.accentImage{
+		display: none;
+	}
+	.slogan{
+		font-size: 4rem;
+	}
+	.divSetOne {
+		width: 90%;
+		flex-direction: column;
+		margin: auto;
+	}
+	.divSetOne div{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.divSetTwo{
+		width: 90%;
+		flex-direction: column;
+		margin: auto;
+	}
+	.divSetTwo div{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.bottom-section{
+		margin-left: 20px;
+	}
+}
+
+/*Begin Tablet*/
+@media only screen
+and (max-width: 899px)
+and (min-width: 600px)
+{
+	.logo{
+		order: -1;
+	}
+	.header{
+		display: flex;
+		flex-direction: column;
+	}
+	.nav-panel{
+		display: flex;
+		flex-direction: row;
+	}
+	.index-page{
+		width: 100%;
+		margin: auto;
+	}
+	.accentImage{
+		display: none;
+	}
+	.sloganDiv {
+		width: 100%;
+		font-size: 5rem;
+	}
+	.divSetOne{
+		width:98%;
+		margin: 20px auto;
+	}
+	.divSetTwo{
+		width: 98%;
+		margin: 20px auto;
+	}
+}
+
+/*Begin Services Page*/
+.mainBody {
+	width: 900px;
+	margin: auto;
+}
+.navLogo{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 3%;
+}
+.navPanel{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.servicesLogo{
+	margin-left: 2%;
+}
+.navPanel a{
+	color: darkgray;
+	text-decoration: none;
+}
+.servicesSection{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: space-between;*/
+}
+.services-header-img{
+	margin: 1.5% 0;
+}
+.servicesHeader{
+	margin: 2%;
+}
+.svcPageTitle{
+	font-size: 1.5rem;
+}
+.cardGroup1{
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+}
+.cardGroup2{
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+}
+.cardGroup3{
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+}
+.card{
+	width: 50%;
+	height: 200px;
+	margin: 2%;
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	border: 2px solid black;
+}
+.cardHeading{
+	margin: 3%;
+}
+.cardContent{
+	margin: 3%;
+}
+.cardButton{
+	width: 150px;
+	height: 40px;
+	border-radius: 15px;
+	font-size: 16px;
+	margin: 2%;
+	border: 1px solid black;
+}
+.bottomServices{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1.5% 0;
+}
+.servicesInfo{
+	width: 50%;
+	margin: 2%;
+}
+.services-info-img{
+	width: 50%;
+	margin: 2%;
+}
+.servicesInfo ul{
+	list-style-type: square;
+	padding-left: 30px;
+	margin-top: 2%;
+	line-height: 1.5;
+}
