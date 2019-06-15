@@ -249,6 +249,7 @@ and (min-width: 600px)
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 .servicesLogo{
 	margin-left: 2%;
@@ -257,7 +258,6 @@ and (min-width: 600px)
 	color: darkgray;
 	text-decoration: none;
 }
-
 .servicesSection{
 	display: flex;
 	flex-direction: column;
@@ -265,28 +265,34 @@ and (min-width: 600px)
 	/*justify-content: space-between;*/
 }
 .services-header-img{
-	margin: 3% 0;
+	margin: 1.5% 0;
 }
 .servicesHeader{
 	margin: 2%;
 }
-.mainContent{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
+.svcPageTitle{
+	font-size: 1.5rem;
 }
-.mainContent .cards{
+.cardGroup1{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	/*flex-wrap: wrap;*/
+}
+.cardGroup2{
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+}
+.cardGroup3{
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
 }
 .card{
 	width: 50%;
 	height: 200px;
-	margin: 15px 2%;
-	background-color: darkgray;
+	margin: 2%;
+	background-color: lightgrey;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -299,7 +305,6 @@ and (min-width: 600px)
 .cardContent{
 	margin: 3%;
 }
-
 .cardButton{
 	width: 150px;
 	height: 40px;
@@ -327,4 +332,5 @@ and (min-width: 600px)
 	list-style-type: square;
 	padding-left: 30px;
 	margin-top: 2%;
+	line-height: 1.5;
 }

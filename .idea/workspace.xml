@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5044405">
+    <splitter split-orientation="horizontal" split-proportion="0.5035524">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -27,10 +27,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/great-idea/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
+                <state relative-caret-position="166">
                   <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
@@ -38,7 +38,6 @@
                     <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#nav#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -57,11 +56,22 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/great-idea/services.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="163">
-                  <caret line="62" column="207" selection-start-line="62" selection-start-column="207" selection-end-line="62" selection-end-column="207" />
+                <state relative-caret-position="195">
+                  <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+                  <folding>
+                    <element signature="n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -73,8 +83,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/great-idea/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="284" selection-start-line="284" selection-end-line="284" />
+                <state relative-caret-position="241">
+                  <caret line="251" column="24" selection-start-line="251" selection-start-column="24" selection-end-line="251" selection-end-column="24" />
                   <folding>
                     <element signature="e#1488#1575#0" />
                     <element signature="e#1583#1704#0" />
@@ -112,6 +122,24 @@
                     <element signature="e#3891#3932#0" />
                     <element signature="e#3943#3984#0" />
                     <element signature="e#3995#4037#0" />
+                    <element signature="e#3906#3911#0" />
+                    <element signature="e#4080#4085#0" />
+                    <element signature="e#4006#4011#0" />
+                    <element signature="e#4181#4186#0" />
+                    <element signature="e#4303#4308#0" />
+                    <element signature="e#4337#4342#0" />
+                    <element signature="e#4366#4371#0" />
+                    <element signature="e#4505#4510#0" />
+                    <element signature="e#4522#4527#0" />
+                    <element signature="e#4539#4544#0" />
+                    <element signature="e#4228#4233#0" />
+                    <element signature="e#4750#4755#0" />
+                    <element signature="e#4751#4756#0" />
+                    <element signature="e#4651#4724#0" />
+                    <element signature="e#4505#4510#0" />
+                    <element signature="e#4574#4579#0" />
+                    <element signature="e#4609#4614#0" />
+                    <element signature="e#4555#4560#0" />
                   </folding>
                 </state>
               </provider>
@@ -221,12 +249,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559588883649</updated>
       <workItem from="1559588888097" duration="1515000" />
-      <workItem from="1560610060863" duration="12029000" />
+      <workItem from="1560610060863" duration="15007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13544000" />
+    <option name="totallyTimeSpent" value="16522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -257,9 +285,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/great-idea/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/great-idea/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="166">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
@@ -267,7 +313,6 @@
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -287,15 +332,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/great-idea/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/great-idea/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="62" column="207" selection-start-line="62" selection-start-column="207" selection-end-line="62" selection-end-column="207" />
+        <state relative-caret-position="241">
+          <caret line="251" column="24" selection-start-line="251" selection-start-column="24" selection-end-line="251" selection-end-column="24" />
+          <folding>
+            <element signature="e#1488#1575#0" />
+            <element signature="e#1583#1704#0" />
+            <element signature="e#1715#1814#0" />
+            <element signature="e#1828#1905#0" />
+            <element signature="e#1918#2004#0" />
+            <element signature="e#2015#2137#0" />
+            <element signature="e#2150#2169#0" />
+            <element signature="e#2178#2226#0" />
+            <element signature="e#2240#2376#0" />
+            <element signature="e#2387#2530#0" />
+            <element signature="e#2542#2562#0" />
+            <element signature="e#2573#2716#0" />
+            <element signature="e#2732#2782#0" />
+            <element signature="e#2790#2842#0" />
+            <element signature="e#2861#3568#0" />
+            <element signature="e#2940#2960#0" />
+            <element signature="e#2969#3019#0" />
+            <element signature="e#3026#3043#0" />
+            <element signature="e#3054#3116#0" />
+            <element signature="e#3127#3174#0" />
+            <element signature="e#3187#3209#0" />
+            <element signature="e#3217#3241#0" />
+            <element signature="e#3253#3318#0" />
+            <element signature="e#3333#3383#0" />
+            <element signature="e#3394#3459#0" />
+            <element signature="e#3474#3524#0" />
+            <element signature="e#3540#3566#0" />
+            <element signature="e#3587#4039#0" />
+            <element signature="e#3659#3677#0" />
+            <element signature="e#3685#3735#0" />
+            <element signature="e#3746#3793#0" />
+            <element signature="e#3805#3843#0" />
+            <element signature="e#3856#3879#0" />
+            <element signature="e#3891#3932#0" />
+            <element signature="e#3943#3984#0" />
+            <element signature="e#3995#4037#0" />
+            <element signature="e#3906#3911#0" />
+            <element signature="e#4080#4085#0" />
+            <element signature="e#4006#4011#0" />
+            <element signature="e#4181#4186#0" />
+            <element signature="e#4303#4308#0" />
+            <element signature="e#4337#4342#0" />
+            <element signature="e#4366#4371#0" />
+            <element signature="e#4505#4510#0" />
+            <element signature="e#4522#4527#0" />
+            <element signature="e#4539#4544#0" />
+            <element signature="e#4228#4233#0" />
+            <element signature="e#4750#4755#0" />
+            <element signature="e#4751#4756#0" />
+            <element signature="e#4651#4724#0" />
+            <element signature="e#4505#4510#0" />
+            <element signature="e#4574#4579#0" />
+            <element signature="e#4609#4614#0" />
+            <element signature="e#4555#4560#0" />
+          </folding>
         </state>
       </provider>
     </entry>
